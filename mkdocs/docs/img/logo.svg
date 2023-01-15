@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="145"
+   height="76"
+   viewBox="0 0 38.364581 20.108334"
+   version="1.1"
+   id="svg970"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview972"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.74118967"
+     inkscape:cx="275.90778"
+     inkscape:cy="238.13068"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs967" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g33724"
+       transform="matrix(0.24030067,0,0,0.24030067,-6.3130799,-7.1756409)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.4444px;line-height:1.25;font-family:Amaranth;-inkscape-font-specification:Amaranth;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="29.658775"
+         y="72.39122"
+         id="text1221"><tspan
+           sodipodi:role="line"
+           id="tspan1219"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.4444px;font-family:Amaranth;-inkscape-font-specification:Amaranth;fill:#ffffff;stroke-width:0.264583"
+           x="29.658775"
+           y="72.39122">Auto</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:70.5556px;line-height:1.25;font-family:'Cinzel Decorative';-inkscape-font-specification:'Cinzel Decorative Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="128.22742"
+         y="105.7234"
+         id="text17057"><tspan
+           sodipodi:role="line"
+           id="tspan17055"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:70.5556px;font-family:'Cinzel Decorative';-inkscape-font-specification:'Cinzel Decorative Bold';fill:#ffffff;stroke-width:0.264583"
+           x="128.22742"
+           y="105.7234">S</tspan></text>
+    </g>
+    <path
+       sodipodi:type="star"
+       style="fill:#ff0000"
+       id="path33748"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="450"
+       sodipodi:cy="285"
+       sodipodi:r1="80.622574"
+       sodipodi:r2="40.311291"
+       sodipodi:arg1="-1.0516502"
+       sodipodi:arg2="-0.0044526614"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.03859261,0,0,0.03755032,4.2800705,5.5974042)"
+       inkscape:transform-center-x="0.77185301"
+       inkscape:transform-center-y="-0.0067381426"
+       d="m 490,215 0.31089,69.82051 0.31089,69.8205 L 430,320 369.37823,285.35898 429.68911,250.17949 Z" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff0000"
+       id="path33748-8"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="450"
+       sodipodi:cy="285"
+       sodipodi:r1="80.622574"
+       sodipodi:r2="40.311291"
+       sodipodi:arg1="-1.0516502"
+       sodipodi:arg2="-0.0044526614"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(-0.02557081,0,0,-0.0248802,47.233093,14.667775)"
+       inkscape:transform-center-x="-0.51141367"
+       inkscape:transform-center-y="0.004466984"
+       d="m 490,215 0.31089,69.82051 0.31089,69.8205 L 430,320 369.37823,285.35898 429.68911,250.17949 Z" />
+  </g>
+</svg>

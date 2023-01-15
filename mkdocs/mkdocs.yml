@@ -1,0 +1,104 @@
+
+site_name: Autossential
+
+site_url: https://github.com/Autossential
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+
+theme:
+  name: material
+  favicon: img/favicon.ico
+  logo: img/logo.svg
+  palette:
+      scheme: default
+  features:
+    - navigation.tabs
+    
+extra_css: ["custom.css"]
+
+plugins:
+  - exclude:
+      glob:
+        - models-index.md
+        - core-models\*
+        - configuration-models\*
+        - workbook-models\*
+
+nav:
+  - Introduction: 
+    - index.md
+    - Getting Started: getting-started.md
+    
+  - Activities:
+    - Introduction: core/_index.md
+    - Change Log: core/_changelog.md
+    
+    - Data:
+      - Aggregate: core/Aggregate.md
+      - DataRow To Dictionary: core/DataRow To Dictionary.md
+      - DataTable To Text: core/DataTable To Text.md
+      - Dictionary To DataTable: core/Dictionary To DataTable.md
+      - Extract Data Column Values: core/Extract Data Column Values.md
+      - Promote Headers: core/Promote Headers.md
+      - Remove Data Columns: core/Remove Data Columns.md
+      - Remove Duplicate Rows: core/Remove Duplicate Rows.md
+      - Remove Empty Rows: core/Remove Empty Rows.md
+      - Transpose Data: core/Transpose Data.md
+    
+    - Apps & Diagnostics:
+      - Terminate Process: core/Terminate Process.md
+      - Stopwatch: core/Stopwatch.md
+    
+    - File:
+      - Compression:
+        - Unzip: core/Unzip.md
+        - Zip Entries Count: core/Zip Entries Count.md
+        - Zip: core/Zip.md
+      - Clean Up Folder: core/Clean Up Folder.md
+      - Enumerate Files: core/Enumerate Files.md
+      - Wait Dynamic File: core/Wait Dynamic File.md
+      - Wait File: core/Wait File.md
+    
+    - Programming:
+      - Add Range To Collection: core/Add Range To Collection.md
+      - Culture Scope: core/Culture Scope.md
+      - Decrement: core/Decrement.md
+      - Increment: core/Increment.md
+      - Is True: core/Is True.md
+      - Replace Tokens: core/Replace Tokens.md
+
+    - Security:
+      - Algorithms: core/_algorithms.md
+      - Text Encryption: core/Text Encryption.md
+      - DataTable Encryption: core/DataTable Encryption.md
+
+    - Workflow:
+      - Check Point: core/Check Point.md
+      - Container: core/Container.md
+      - Exit: core/Exit.md      
+      - Iterate: core/Iterate.md
+      - Next: core/Next.md     
+      - Time Loop: core/Time Loop.md 
+      - When Do: core/When Do.md
+
+  - Configuration.Activities:
+    - Introduction: configuration/_index.md    
+    - Change Log: configuration/_changelog.md
+    - Configuration:
+      - Config Parse: configuration/Config Parse.md
+      - DataTable To Config: configuration/DataTable To Config.md
+      - Dictionary To Config: configuration/Dictionary To Config.md
+      - Merge Config: configuration/Merge Config.md
+      - Read Config File: configuration/Read Config File.md
+    - ConfigSection Class: configuration/_config-section.md
+    - ConfigItem Class: configuration/_config-item.md
+#
+#  - Workbook.Activities:
+#    - Introduction: workbook/_index.md

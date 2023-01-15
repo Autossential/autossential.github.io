@@ -1,0 +1,35 @@
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+
+.two-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.two-columns > div {
+    width: 48%;
+}
+
+.two-columns > div img {
+    max-width: none;
+}
+
+.changelog {
+    background-color: bisque;
+    color: rgb(95, 71, 11) !important;
+    font-size: 0.8em;
+    padding: 1em;
+    box-shadow: 1px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    max-height: 40em;
+    overflow: auto;
+}
+
+a.md-header__button.md-logo :is(img, svg) {
+    width: 3rem;
+    height: auto;
+}
