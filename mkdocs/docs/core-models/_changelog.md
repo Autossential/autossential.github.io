@@ -6,6 +6,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The packages can be found on [NuGet.org](https://nuget.org/) and [UiPath Marketplace](https://marketplace.uipath.com/) being available first at NuGet.org.
 
+## 3.3.2 - 2023.06.25
+
+**<u>Breaking Changes:</u>**
+
+**TimeLoop** and **Repeat Until Failure** *(obsolete)* activities had their namespaces changed.
+
+To fix any issue, open the workflow in a text editor and update the namespace below
+
+clr-namespace:Autossential.Activities<u>.Workflow</u>;assembly=Autossential.Activities
+
+to:
+
+clr-namespace:Autossential.Activities;assembly=Autossential.Activities
+
+## 3.3.1 - 2023.06.19
+
+Added *PatternSearchMode* property on **EnumerateFiles** and **CleanUpFolder** activities. 
+**TerminateProcess** activity had the code refactored.
+
 ## 3.3.0 - 2023.01.14
 
 New **Time Loop** activity.

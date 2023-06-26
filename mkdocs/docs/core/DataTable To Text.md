@@ -6,8 +6,8 @@ Returns a string representation of a datatable on the specified text format (HTM
 
 |Name          |Description                                                                       |
 |--------------|----------------------------------------------------------------------------------|
-|DataTable     |The DataTable.                                                                    |
 |DateTimeFormat|The date format to be used on the string representation for DateTime column types.|
+|DataTable     |The DataTable.                                                                    |
 |Result        |The string representation of the DataTable.                                       |
 |TextFormat    |The text format.                                                                  |
 

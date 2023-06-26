@@ -4,13 +4,14 @@ Waits until the file be available.
 
 ##### Properties
 
-|Name        |Description                                                                                                                                                                |
-|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|FilePath    |The storage path of the file.                                                                                                                                              |
-|Interval    |Specifies the amount of time (in milliseconds) for the file re-check. Any value less than 50 will be clamped to 50. Make sure to keep this value lesser than Timeout value.|
-|Result      |The FileInfo object of the respective file when found.                                                                                                                     |
-|Timeout     |The maximum time to wait (in milliseconds) the operation to complete.                                                                                                      |
-|WaitForExist|Waits until the file exists.                                                                                                                                               |
+|Name           |Description                                                                                                                                                                |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|ContinueOnError|If set, continue executing the remaining activities even if the current activity has failed.                                                                               |
+|FilePath       |The storage path of the file.                                                                                                                                              |
+|Interval       |Specifies the amount of time (in milliseconds) for the file re-check. Any value less than 50 will be clamped to 50. Make sure to keep this value lesser than Timeout value.|
+|Result         |The FileInfo object of the respective file when found.                                                                                                                     |
+|Timeout        |The maximum time to wait (in milliseconds) the operation to complete.                                                                                                      |
+|WaitForExist   |Waits until the file exists.                                                                                                                                               |
 
 
 ##### Usage
