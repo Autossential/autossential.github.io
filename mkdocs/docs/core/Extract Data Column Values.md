@@ -7,13 +7,12 @@ Returns an array with all values of a respective data column.
 |Name        |Description                                                                                                                                                       |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Column      |The column name or index where the values will be extracted from.                                                                                                 |
-|DataTable   |The data table where the values will be extracted from.                                                                                                           |
 |DefaultValue|The value to be use in case of the extract value cannot be converted to the specified type.                                                                       |
+|DataTable   |The data table where the values will be extracted from.                                                                                                           |
 |Result      |The array of values extracted from the data column.                                                                                                               |
 |Sanitize    |Removes null values, empty strings, or those which consists only of white-space characters.                                                                       |
 |TextCase    |Allows to transform the text casing during the extraction. Applied only if the TypeArgument is set to System.String.                                              |
 |Trim        |Removes all leading and trailing occurrences of a set of specified characters from each extracted value. Applied only if the TypeArgument is set to System.String.|
-|TypeArgument|Determines the type of each value extracted from the data column.                                                                                                 |
 |Unique      |Returns only a list of unique values.                                                                                                                             |
 
 
