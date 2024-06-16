@@ -46,6 +46,7 @@ nav:
       - DataTable To Text: core/DataTable To Text.md
       - Dictionary To DataTable: core/Dictionary To DataTable.md
       - Extract Data Column Values: core/Extract Data Column Values.md
+      - Fill Data Column: core/Fill Data Column.md
       - Promote Headers: core/Promote Headers.md
       - Remove Data Columns: core/Remove Data Columns.md
       - Remove Duplicate Rows: core/Remove Duplicate Rows.md
@@ -53,8 +54,11 @@ nav:
       - Transpose Data: core/Transpose Data.md
     
     - Apps & Diagnostics:
-      - Terminate Process: core/Terminate Process.md
+      - MapDrive: core/Map Drive.md
+      - UnmapDrive: core/Unmap Drive.md
       - Stopwatch: core/Stopwatch.md
+      - Terminate Process: core/Terminate Process.md
+      
     
     - File:
       - Compression:

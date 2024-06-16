@@ -6,10 +6,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The packages can be found on [NuGet.org](https://nuget.org/) and [UiPath Marketplace](https://marketplace.uipath.com/) being available first at NuGet.org.
 
+## 3.3.5 - 2024.06.16
+
+Created new activity **Fill Data Column**.
+
+Added the output property **IsTimeout** to **Time Loop** activity.
+
+Added the output property **ResponseMessage** to **MapDrive** and **UnmapDrive** activities.
+
+## 3.3.4 - 2024.05.19
+
+**Time Loop** gets new property to propagate exceptions.
+
+**Is True**, fixed the output variable.
+
+Two new activives included **MapDrive** and **UnmapDrive** which can be used to map/unmap a network shared drive.
+
 ## 3.3.3 - 2024.05.09
 
 Immediately exits from **Time Loop** without consider the **Loop Interval** if **Exit** is invoked.
-
 
 ## 3.3.2 - 2023.06.25
 
