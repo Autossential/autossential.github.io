@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The packages can be found on [NuGet.org](https://nuget.org/) and [UiPath Marketplace](https://marketplace.uipath.com/) being available first at NuGet.org.
 
+## 3.3.7 - 2024.11.27
+**Terminate Process** activity was updated to close the processes only for the current user session.
+
+
+## 3.3.6 - 2024.10.20
+Removed from code the obsolete **Repeat Until Failure** (since 3.3.0) activity.
+
+Added the activities **Add To/Update Dictionary** and **Remove From Dictionary**.
+
+Other minor code refactoring.
+
 ## 3.3.5 - 2024.06.16
 
 Created new activity **Fill Data Column**.

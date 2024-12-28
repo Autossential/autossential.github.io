@@ -16,19 +16,21 @@ letters: # ConfigItem (Key: letters, Value: ConfigSection)
 
 |         Name         |                       Description                       |
 | -------------------- | ------------------------------------------------------- |
-| ValueAsString        | Retrieves a value as System.String                      |
-| ValueAsInt           | Retrieves a value as System.Int32                       |
-| ValueAsDouble        | Retrieves a value as System.Double                      |
-| ValueAsDecimal       | Retrieves a value as System.Decimal                     |
-| ValueAsFloat         | Retrieves a value as System.Float                       |
-| ValueAsLong          | Retrieves a value as System.Int64                       |
-| ValueAsDateTime      | Retrieves a value as System.DateTime                    |
-| ValueAsBoolean       | Retrieves a value as System.Boolean                     |
 | ValueAsArray         | Retrieves a value as an array of objects (`object[]`)   |
 | ValueAsArray&lt;T>   | Retrieves a value as an array of the specified type T   |
+| ValueAsBoolean       | Retrieves a value as System.Boolean                     |
+| ValueAsConfigSection | Retrieves a value as a ConfigSection (aka Sub-Sections) |
+| ValueAsDateTime      | Retrieves a value as System.DateTime                    |
+| ValueAsDecimal       | Retrieves a value as System.Decimal                     |
+| ValueAsDouble        | Retrieves a value as System.Double                      |
+| ValueAsFloat         | Retrieves a value as System.Float                       |
+| ValueAsInt           | Retrieves a value as System.Int32                       |
 | ValueAsList          | Retrieves a value as a list of objects (`List<object>`) |
 | ValueAsList&lt;T>    | Retrieves a value as a list of the specified type T     |
-| ValueAsConfigSection | Retrieves a value as a ConfigSection (aka Sub-Sections) |
+| ValueAsLong          | Retrieves a value as System.Int64                       |
+| ValueAsRegex         | Retrieves a valiue as a Regex                           |
+| ValueAsSecureString  | Retrieves a value as a SecureString                     |
+| ValueAsString        | Retrieves a value as System.String                      |
 
 
 All items of a specific *ConfigSection* can be retrieved using *ConfigSection.Items*. E.g:

@@ -4,7 +4,7 @@ Autossential is a .NET project that provides a set of custom activities designed
 
 Two packages are available:
 
-- [Autossential.Activities](core/_index) *(main package with 30+ miscellaneous activities)*
+- [Autossential.Activities](core/_index) *(main package with 40+ miscellaneous activities)*
 - [Autossential.Configuration.Activities](configuration/_index) *(activites to generate a rich configuration object based on YAML, JSON, DataTable or Dictionary)*
 
 Each package is independent and can be used individually.

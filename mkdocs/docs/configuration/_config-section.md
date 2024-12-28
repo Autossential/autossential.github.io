@@ -2,21 +2,26 @@ The ConfigSection class provides a series of methods for type conversion which s
 
 ##### Common Use Methods
 
-|     Name      |                       Description                       |
-| ------------- | ------------------------------------------------------- |
-| AsString      | Retrieves a value as System.String                      |
-| AsInt         | Retrieves a value as System.Int32                       |
-| AsDouble      | Retrieves a value as System.Double                      |
-| AsDecimal     | Retrieves a value as System.Decimal                     |
-| AsFloat       | Retrieves a value as System.Float                       |
-| AsLong        | Retrieves a value as System.Int64                       |
-| AsDateTime    | Retrieves a value as System.DateTime                    |
-| AsBoolean     | Retrieves a value as System.Boolean                     |
-| AsArray       | Retrieves a value as an array of objects (`object[]`)   |
-| AsArray&lt;T> | Retrieves a value as an array of the specified type T   |
-| AsList        | Retrieves a value as a list of objects (`List<object>`) |
-| AsList&lt;T>  | Retrieves a value as a list of the specified type T     |
-| Section       | Retrieves a value as a ConfigSection (aka Sub-Sections) |
+|     Name        |                       Description                          |
+| --------------- | -------------------------------------------------------    |
+| AsArray         | Retrieves a value as an array of objects (`object[]`)      |
+| AsArray&lt;T>   | Retrieves a value as an array of the specified type T      |
+| AsBoolean       | Retrieves a value as System.Boolean                        |
+| AsConfigItem    | Returns the [ConfigItem](_config-item.md) on the specified |
+| AsConfigSection | Retrieves a value as a ConfigSection (aka Sub-Sections)    |
+| AsDateTime      | Retrieves a value as System.DateTime                       |
+| AsDecimal       | Retrieves a value as System.Decimal                        |
+| AsDouble        | Retrieves a value as System.Double                         |
+| AsFloat         | Retrieves a value as System.Float                          |
+| AsInt           | Retrieves a value as System.Int32                          |
+| AsList          | Retrieves a value as a list of objects (`List<object>`)    |
+| AsList&lt;T>    | Retrieves a value as a list of the specified type T        |
+| AsLong          | Retrieves a value as System.Int64                          |
+| AsRegex         | Retrieves a valiue as a Regex                              |
+| AsSecureString  | Retrieves a value as a SecureString                        |
+| AsString        | Retrieves a value as System.String                         |
+| Section         | Retrieves a value as a ConfigSection (aka Sub-Sections)    |
+
 
 ##### Usage
 
@@ -121,14 +126,16 @@ You need then convert the values to the type you need (except Sections) using th
     | `Config("ProcessName").ToString`                     | `Config.AsString("ProcessName")`           |
     | `CInt(Config("LocalRecovery/MaxRetries"))`           | `Config.AsInt("LocalRecovery/MaxRetries")` |
     | `CType(Config("Credentials/System1), ConfigSection)` | `Config.Section("Credentials/System1")`    |
+    | `New Regex(Config("EmailRegexPattern").ToString)`    | `Config.AsRegex("EmailRegexPattern")`      |
 
 === "C#"
 
-    |                  Conventional                  |           ConfigSection Methods            |
-    | ---------------------------------------------- | ------------------------------------------ |
-    | `Config["ProcessName"].ToString`               | `Config.AsString("ProcessName")`           |
-    | `(int)Config("LocalRecovery/MaxRetries")`      | `Config.AsInt("LocalRecovery/MaxRetries")` |
-    | `(ConfigSection)Config["Credentials/System1"]` | `Config.Section("Credentials/System1")`    |
+    |                  Conventional                        |           ConfigSection Methods            |
+    | ---------------------------------------------------- | ------------------------------------------ |
+    | `Config["ProcessName"].ToString()`                   | `Config.AsString("ProcessName")`           |
+    | `(int)Config("LocalRecovery/MaxRetries")`            | `Config.AsInt("LocalRecovery/MaxRetries")` |
+    | `(ConfigSection)Config["Credentials/System1"]`       | `Config.Section("Credentials/System1")`    |
+    | `new Regex(Config["EmailRegexPattern"].ToString())`  | `Config.AsRegex("EmailRegexPattern")`      |
 
 
 !!! info "Key paths are case-insensitive"
@@ -150,20 +157,11 @@ You need then convert the values to the type you need (except Sections) using th
     ```
 
 
-
-
-    
-
-
-
 ##### Other Methods
 
 |       Name        |                              Description                               |
 | ----------------- | ---------------------------------------------------------------------- |
-| GetItem           | Returns the [ConfigItem](_config-item.md) on the specified         |
 | Parent            | Returns the parent section of the current section                      |
 | Root              | Returns the top level section                                          |
-| Traverse          | Returns all config items from all section levels                |
+| Traverse          | Returns all config items from all section levels                       |
 | Inspect           | Returns all key-pair values from all section levels (useful for debug) |
-| SkipValueSections | Returns all config items whose value is *not* a ConfigSection          |
-| OnlyValueSections | Returns all config items whose value is a ConfigSection                |

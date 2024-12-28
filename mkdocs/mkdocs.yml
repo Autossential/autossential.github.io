@@ -41,6 +41,8 @@ nav:
     - Change Log: core/_changelog.md
     
     - Data:
+      - Add Range To Collection: core/Add Range To Collection.md
+      - Add To/Update Dictionary: core/Add To Update Dictionary.md
       - Aggregate: core/Aggregate.md
       - DataRow To Dictionary: core/DataRow To Dictionary.md
       - DataTable To Text: core/DataTable To Text.md
@@ -51,27 +53,26 @@ nav:
       - Remove Data Columns: core/Remove Data Columns.md
       - Remove Duplicate Rows: core/Remove Duplicate Rows.md
       - Remove Empty Rows: core/Remove Empty Rows.md
+      - Remove From Dictionary: core/Remove From Dictionary.md
       - Transpose Data: core/Transpose Data.md
     
-    - Apps & Diagnostics:
-      - MapDrive: core/Map Drive.md
-      - UnmapDrive: core/Unmap Drive.md
-      - Stopwatch: core/Stopwatch.md
-      - Terminate Process: core/Terminate Process.md
-      
-    
     - File:
-      - Compression:
-        - Unzip: core/Unzip.md
-        - Zip Entries Count: core/Zip Entries Count.md
-        - Zip: core/Zip.md
       - Clean Up Folder: core/Clean Up Folder.md
       - Enumerate Files: core/Enumerate Files.md
       - Wait Dynamic File: core/Wait Dynamic File.md
       - Wait File: core/Wait File.md
+      - Compression:
+        - Unzip: core/Unzip.md
+        - Zip Entries Count: core/Zip Entries Count.md
+        - Zip: core/Zip.md
     
+    - Misc:
+      - MapDrive: core/Map Drive.md
+      - Stopwatch: core/Stopwatch.md
+      - Terminate Process: core/Terminate Process.md
+      - UnmapDrive: core/Unmap Drive.md
+       
     - Programming:
-      - Add Range To Collection: core/Add Range To Collection.md
       - Culture Scope: core/Culture Scope.md
       - Decrement: core/Decrement.md
       - Increment: core/Increment.md

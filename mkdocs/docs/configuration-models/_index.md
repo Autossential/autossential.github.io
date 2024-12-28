@@ -2,7 +2,7 @@ The *Autossential.Configuration.Activities* provides activities to create a rich
 
 This package has the following dependencies:
 
-- System.Text.Json (6.0.0)
+- System.Text.Json (4.7.2)
 - YamlDotNet (11.2.1)
 
 !!! info

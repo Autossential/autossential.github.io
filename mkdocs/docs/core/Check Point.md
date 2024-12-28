@@ -1,4 +1,4 @@
-Checks if a given expression is true, if not, thrown the specified exception.
+Checks if a given expression is true, if is not, thrown the specified exception.
 
 ![](../img/activities/CheckPoint.png)
 
