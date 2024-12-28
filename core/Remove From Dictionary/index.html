@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://github.com/Autossential/core/_index/">
+        <link rel="canonical" href="https://github.com/Autossential/core/Remove%20From%20Dictionary/">
       
       
-        <link rel="prev" href="../../getting-started/">
+        <link rel="prev" href="../Remove%20Empty%20Rows/">
       
       
-        <link rel="next" href="../_changelog/">
+        <link rel="next" href="../Transpose%20Data/">
       
       
       <link rel="icon" href="../../img/favicon.ico">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Introduction - Autossential</title>
+        <title>Remove From Dictionary - Autossential</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction" class="md-skip">
+        <a href="#properties" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Remove From Dictionary
             
           </span>
         </div>
@@ -161,7 +161,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../_index/" class="md-tabs__link">
           
   
   Activities
@@ -356,19 +356,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../_index/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -377,7 +368,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -408,6 +398,8 @@
                 
   
   
+    
+  
   
   
     
@@ -417,11 +409,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
         
           
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
@@ -435,7 +427,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             Data
@@ -698,10 +690,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../Remove%20From%20Dictionary/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Remove From Dictionary
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -710,6 +720,42 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Properties
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1870,8 +1916,32 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Properties
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1886,10 +1956,30 @@
                   
 
 
-<h1 id="introduction">Introduction</h1>
-<p>The Autossential.Activities is the main package containing 40+ activities.</p>
-<p>Provides a collection of activities to work with DataTables, Collections, Files, Programming, Workflows, Security and Diagnostics.</p>
-<p>The package is available on NuGet (preview and stable versions) and also UiPath Marketplace (stable versions only).</p>
+  <h1>Remove From Dictionary</h1>
+
+<p>Removes the value with the specified key from the Dictionary.</p>
+<p><img alt="" src="../../img/activities/RemoveFromDictionary.png" /></p>
+<h5 id="properties">Properties</h5>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dictionary</td>
+<td>The Dictionary where the element will be removed from.</td>
+</tr>
+<tr>
+<td>Key</td>
+<td>The key of the element to remove.</td>
+</tr>
+</tbody>
+</table>
+<h5 id="usage">Usage</h5>
 
 
 
