@@ -6,9 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The packages can be found on [NuGet.org](https://nuget.org/) and [UiPath Marketplace](https://marketplace.uipath.com/) being available first at NuGet.org.
 
+## 3.3.8 - 2025.07.27
+
+Minor code refactoring for **Terminate Process**.
+
+**MapDrive** minor code refactoring to handle MS Error 1219 when "Force" option is enabled. 
+
 ## 3.3.7 - 2024.11.27
 **Terminate Process** activity was updated to close the processes only for the current user session.
-
 
 ## 3.3.6 - 2024.10.20
 Removed from code the obsolete **Repeat Until Failure** (since 3.3.0) activity.
