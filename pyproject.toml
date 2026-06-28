@@ -1,0 +1,11 @@
+[project]
+name = "autossential-github-io-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs-material>=9.7.6",
+    "properdocs[i18n]>=1.6.7",
+    "properdocs-theme-mkdocs>=1.6.7",
+]
