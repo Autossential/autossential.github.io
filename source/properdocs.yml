@@ -1,0 +1,122 @@
+site_name: Autossential
+site_url: https://github.com/Autossential
+
+theme:
+  name: material
+  favicon: imgs/favicon.ico
+  logo: imgs/logo.svg
+  font:
+    text: Roboto
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Version 4x:
+    - About: index.md
+    - Change Log: changelog.md
+    - Activities:
+      - Data:
+        - Add Range To Collection: AddRangeToCollection.md
+        - Data Table To Text: DataTableToText.md
+        - Promote Headers: PromoteHeaders.md
+        - Remove Data Columns: RemoveDataColumns.md
+        - Remove Empty Rows: RemoveEmptyRows.md
+        - Transpose Data: TransposeData.md
+        - Update Dictionary: UpdateDictionary.md
+      - Files:
+        - Clean Up Folder: CleanUpFolder.md
+        - Unzip: Unzip.md
+        - Wait File: WaitFile.md
+        - Zip: Zip.md
+      - Programming:
+        - Culture Scope: CultureScope.md
+        - Increment/Decrement: IncrementDecrement.md
+        - Load Data File: LoadDataFile.md
+        - Merge Data: MergeData.md
+        - Parse Data: ParseData.md
+        - Random String: RandomString.md
+        - Replace Tokens: ReplaceTokens.md
+      - System:
+        - Map Drive: MapDrive.md
+        - Terminate Process: TerminateProcess.md
+        - Unmap Drive: UnmapDrive.md
+      - Workflow:
+        - Check Point: CheckPoint.md
+        - Container: Container.md
+        - Exit: Exit.md
+        - If Activity: IfActivity.md
+        - Time Loop: TimeLoop.md
+    - Models:
+      - DataNode: models/DataNode.md
+  - Legacy:
+    - Autossential.Activites 3.x:
+      - About: legacy/core/_index.md
+      - Change Log: legacy/core/_changelog.md
+      - Data:
+        - Add Range To Collection (3.x): legacy/core/Add Range To Collection.md
+        - Add To/Update Dictionary (3.x): legacy/core/Add To Update Dictionary.md
+        - Aggregate (3.x): legacy/core/Aggregate.md
+        - DataRow To Dictionary (3.x): legacy/core/DataRow To Dictionary.md
+        - DataTable To Text (3.x): legacy/core/DataTable To Text.md
+        - Dictionary To DataTable (3.x): legacy/core/Dictionary To DataTable.md
+        - Extract Data Column Values (3.x): legacy/core/Extract Data Column Values.md
+        - Fill Data Column (3.x): legacy/core/Fill Data Column.md
+        - Promote Headers (3.x): legacy/core/Promote Headers.md
+        - Remove Data Columns (3.x): legacy/core/Remove Data Columns.md
+        - Remove Duplicate Rows (3.x): legacy/core/Remove Duplicate Rows.md
+        - Remove Empty Rows (3.x): legacy/core/Remove Empty Rows.md
+        - Remove From Dictionary (3.x): legacy/core/Remove From Dictionary.md
+        - Transpose Data (3.x): legacy/core/Transpose Data.md
+      
+      - File:
+        - Clean Up Folder (3.x): legacy/core/Clean Up Folder.md
+        - Enumerate Files (3.x): legacy/core/Enumerate Files.md
+        - Wait Dynamic File (3.x): legacy/core/Wait Dynamic File.md
+        - Wait File (3.x): legacy/core/Wait File.md
+        - Compression:
+          - Unzip (3.x): legacy/core/Unzip.md
+          - Zip Entries Count (3.x): legacy/core/Zip Entries Count.md
+          - Zip (3.x): legacy/core/Zip.md
+      
+      - Misc:
+        - MapDrive (3.x): legacy/core/Map Drive.md
+        - Stopwatch (3.x): legacy/core/Stopwatch.md
+        - Terminate Process (3.x): legacy/core/Terminate Process.md
+        - UnmapDrive (3.x): legacy/core/Unmap Drive.md
+        
+      - Programming:
+        - Culture Scope (3.x): legacy/core/Culture Scope.md
+        - Decrement (3.x): legacy/core/Decrement.md
+        - Increment (3.x): legacy/core/Increment.md
+        - Is True (3.x): legacy/core/Is True.md
+        - Replace Tokens (3.x): legacy/core/Replace Tokens.md
+
+      - Security:
+        - Algorithms (3.x): legacy/core/_algorithms.md
+        - Text Encryption (3.x): legacy/core/Text Encryption.md
+        - DataTable Encryption (3.x): legacy/core/DataTable Encryption.md
+
+      - Workflow:
+        - Check Point (3.x): legacy/core/Check Point.md
+        - Container (3.x): legacy/core/Container.md
+        - Exit (3.x): legacy/core/Exit.md      
+        - Iterate (3.x): legacy/core/Iterate.md
+        - Next (3.x): legacy/core/Next.md     
+        - Time Loop (3.x): legacy/core/Time Loop.md 
+        - When Do (3.x): legacy/core/When Do.md
+
+    - Autossential.Configuration:
+      - Introduction: legacy/configuration/_index.md    
+      - Change Log: legacy/configuration/_changelog.md
+      - Configuration:
+        - Config Parse: legacy/configuration/Config Parse.md
+        - DataTable To Config: legacy/configuration/DataTable To Config.md
+        - Dictionary To Config: legacy/configuration/Dictionary To Config.md
+        - Merge Config: legacy/configuration/Merge Config.md
+        - Read Config File: legacy/configuration/Read Config File.md
+      - ConfigSection Class: legacy/configuration/_config-section.md
+      - ConfigItem Class: legacy/configuration/_config-item.md
