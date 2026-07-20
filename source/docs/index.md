@@ -3,4 +3,4 @@ The activities are organized into categories such as Data, Files, Programming, S
 
 The version 4.x was completed redesigned aiming exclusively in the compatibility with Windows and Cross-Platform UiPath projects. Windows-Legacy projects are no longer supported.
 
-The package is available through NuGet (preview and stable releases) and the eventually in the UiPath Marketplace (stable releases only).
+The package is available through NuGet (preview and stable releases).

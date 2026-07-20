@@ -25,7 +25,7 @@ Copy-Item -Path source\site\* -Destination . -Recurse -Force
 # Commit e push
 Write-Host ">> Fazendo commit e enviando para GitHub..."
 git add .
-git commit -m "Deploy Properdocs site"
+git commit -m "Deploy docs site"
 git push origin gh-pages --force
 
 Write-Host ">> Deploy concluído com sucesso!"
