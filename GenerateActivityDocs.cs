@@ -6,7 +6,7 @@
 #:package UiPath.Activities.Api@24.10.1
 #:package System.Activities.ViewModels@1.20260216.2
 #:package System.Activities.Metadata@6.0.0-20240517.13
-#:project D:\Development\Autossential-4\Autossential.Activities\Autossential.Activities.csproj
+#:project D:\Development\Autossential.Activities\Autossential.Activities\Autossential.Activities.csproj
 
 using System.Activities;
 using System.Reflection;
